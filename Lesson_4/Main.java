@@ -5,7 +5,7 @@ public class Main {
         
         DataContainerModel<String> model = new DataContainerModel<>();
         DataContainerView view = new DataContainerView();
-        DataContainerControll<String> controll = new DataContainerControll<>(model, view);
+        DataContainerControll controll = new DataContainerControll(model, view);
         
         controll.getUserInput();
     }
