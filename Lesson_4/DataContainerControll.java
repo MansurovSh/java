@@ -1,10 +1,10 @@
 package Lesson_4;
 
-public class DataContainerControll<T> {
-    private DataContainerModel<T> model;
+public class DataContainerControll {
+    private DataContainerModel<?> model;
     private DataContainerView view;
 
-    public DataContainerControll(DataContainerModel<T> model, DataContainerView view){
+    public DataContainerControll(DataContainerModel<?> model, DataContainerView view){
         this.model = model;
         this.view = view;
     }
